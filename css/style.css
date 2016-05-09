@@ -3,10 +3,15 @@
     padding: 0;
 }
 
-header{
+img {
+    display: block;
+    margin: 0 auto 50px;
+}
+
+header {
     text-align: center;
     font-size: 55px;
-    background: #FFCB00;
+    background: rgb(255, 203, 0);
     color: #fff;
     transition: all 0.4s ease;
 }
@@ -14,21 +19,21 @@ header{
 header.stickyHeader {
     position: fixed;
     width: 100%;
-    background: #F99024;
+    background: rgba(249, 144, 36, 0.9);
 }
 
-main {
-    width: 90%;
-    margin: 0 auto;
-    padding: 30px 0;
-    font-family: monospace;
-    font-size: 20px;
+div {
+    text-align: center;
+    font-size: 55px;
+    background: rgb(255, 84, 0);
+    color: #fff;
+    transition: all 0.4s ease;
 }
 
-main.stickyMain {
-    width: 90%;
-    margin: 0 auto;
-    padding: 170px 0;
-    font-family: monospace;
-    font-size: 20px;
+div.stickyBlock {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 84, 0, 0.9);
+    z-index: 9999;
 }
